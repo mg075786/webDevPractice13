@@ -1,0 +1,77 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Blackstone Bistro: Pizza-on-Demand</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>Blackstone Bistro | Pizza-on-Demand</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+
+<form action="pizza.php" method="post" name="orderPizza" target="_blank">
+<fieldset>
+  <legend>Your Information</legend>
+<ul>
+  <li>
+    <label for="name">Name:</label>
+    <input id="name" name="name" class="text" type="text">
+  </li>
+  <li>Address:</li>
+  <li>Telephone Number:</li>
+  <li>Email:</li>
+  <li>Delivery instructions:</li>
+</ul>
+</fieldset>
+
+<h2>Design Your Dream Pizza:</h2>
+
+
+<fieldset>
+  <legend>Pizza Specs</legend> 
+<fieldset>
+  <legend>Crust <span id="perens">(Choose One)</span></legend>
+<ul>
+  <li>Classic white</li>
+  <li>Multigrain</li>
+  <li>Cheese-stuffed crust</li>
+  <li>Gluten-free</li>
+</ul>
+</fieldset>
+<fieldset>
+  <legend>Toppings <span id="perens">(Choose as many as you want)</span></legend>
+<ul>
+  <li>Red sauce</li>
+  <li>White sauce</li>
+  <li>Mozzarella Cheese</li>
+  <li>Pepperoni</li>
+  <li>Mushrooms</li>
+  <li>Peppers</li>
+  <li>Anchovies</li>
+</ul>
+</fieldset>
+<fieldset>
+  <legend>Number</legend>
+<p>
+  How many pizzas:
+  <td>
+    <select name="howManyPizzas" tabindex="6">
+      <option selected="selected" value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+  </td>
+  <p>
+</fieldset>  
+</fieldset>
+<input name="submitButton" type="submit" value="Bring me a pizza!">
+<input name="resetButton" type="reset" value="Reset"> 
+</form>
+</body>
+</html>
