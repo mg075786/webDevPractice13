@@ -1,9 +1,11 @@
 ol, ul { 
     list-style-type: none;
      }
-#pernes{
+.pernes{
     font-style: italic;
 }
-#delInstu {
-    float: left;
-}
+.delInstuc{
+    height: 200px;
+    width: 350px;
+    border: 1px soild black;
+ }

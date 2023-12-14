@@ -34,10 +34,9 @@
   </li>
   <li>
     
-    <p class="delInstu">Delivery instructions:</p>
-    <textarea>
-    No more than 400 characters long
-    </textarea>
+    <label for="delInstru" >Delivery instructions:</label>
+    
+    <textarea  class="delInstuc" placeholder="No more than 400 characters long"></textarea>
    
   </li>
 </ul>
@@ -52,12 +51,21 @@
   <legend>Crust <span id="perens">(Choose One)</span></legend>
 <ul>
   <li>
-    Classic white
-    
+    <label for="claWhi">Classic white</label>
+    <input id="claWhi" name="claWhi" class="text" type="radio">
   </li>
-  <li>Multigrain</li>
-  <li>Cheese-stuffed crust</li>
-  <li>Gluten-free</li>
+  <li>
+    <label for="multiGr"></label>Multigrain
+    <input id="multiGr" name="multiGr" class="text" type="radio">
+  </li>
+  <li>
+    <label for="cheStuCru">Cheese-stuffed crust</label>
+    <input id="cheStuCru" name="cheStuCru" class="text" type="radio">
+  </li>
+  <li>
+    <label for="gluFree">Gluten-free</label>
+    <input id="gluFree" name="gluFree" class="text" type="radio">
+  </li>
 </ul>
 </fieldset>
 <fieldset>
